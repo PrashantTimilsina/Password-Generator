@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Popins", sans-serif;
+}
+
+body {
+  background-color: #002339;
+}
+.app {
+  margin: 150px auto 0;
+
+  max-width: 50%;
+  color: white;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+#password {
+  height: 8vh;
+  width: 28vw;
+  outline: none;
+  margin-right: 380px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.btn {
+  width: 19vw;
+  height: 8vh;
+  cursor: pointer;
+  margin-right: 420px;
+  border-radius: 10px;
+  background-color: #019f55;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+.heading {
+  margin-right: 380px;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.below {
+  margin-right: 380px;
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding: 15px;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+#icon {
+  font-size: 24px;
+  color: white;
+}
+#above {
+  margin: 0 auto 0;
+  margin-left: 350px;
+  position: relative;
+  bottom: 35px;
+  color: #019f55;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.btn:active {
+  color: white;
+  background-color: blue;
+  border: 2px solid green;
+}
+@media (max-width: 600px) {
+  html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .app {
+    margin: 150px auto 0;
+
+    max-width: 50%;
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+  }
+  .heading {
+    margin-left: 380px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .below {
+    margin-left: 380px;
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding: 15px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  #password {
+    height: 8vh;
+    width: 90vw;
+    outline: none;
+    margin-left: 380px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  #above {
+    font-size: 1.8rem;
+    display: flex;
+    position: absolute;
+    right: 0%;
+
+    bottom: 118px;
+    padding-left: 25px;
+  }
+  .btn {
+    width: 70vw;
+    height: 8vh;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 420px;
+    border-radius: 10px;
+    background-color: #019f55;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+  }
+}
